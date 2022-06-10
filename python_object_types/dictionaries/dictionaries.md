@@ -15,3 +15,5 @@ This method returns the value for key if key is in the dictionary, else None
 
 Iterate Through a Nested Dictionary
 You can iterate over all values in a nested dictionary using nested for loop.
+
+# Accessing

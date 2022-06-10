@@ -1,4 +1,6 @@
-
+"""this dictionary employees
+has a dictionary inside of it (nested) employee
+it has a string variable, it has a num variable, it has a boolean variable, it has a list variable, it has a tuple variable"""
 employees = {
 'employee1': {
     'name': 'alba',
@@ -38,19 +40,33 @@ employees = {
 },
 }
 
-print(employees)
+# print(employees['employee3']['name'])
+# print(employees['employee3']['age'])
+# print(employees['employee3']['remote'])
+# print(employees['employee3']['promotions'])
+# print(employees['employee3']['place_of_birth'])
 
 
-# TODO: understand nested dictionaries
+# print(dir('employees'), type(employees))
 
-# print(D['emp1']['name'])
 
-# print(D['emp1'].get('salary'))
-# D = {'emp1': {'name': 'Bob', 'job': 'Mgr'},
-#      'emp2': {'name': 'Kim', 'job': 'Dev'},
-#      'emp3': {'name': 'Sam', 'job': 'Dev'}}
+# print("--------------------------------------------------")
+# print(dir('employee1'), type(26))
+# print("--------------------------------------------------")
+# print(dir('name'), type(False))
+# print("--------------------------------------------------")
+# print(dir('name'), type(True))
+# print("--------------------------------------------------")
+# print(dir('name'), type(['intern', 'NASA engineer']))
+# print("--------------------------------------------------")
+# print(dir('name'), type(('country', 'Canada')))
+# employees 
+# 'employee1': {
+#     'name': 'alba',
+#     'role': 'dev',
+#     'location': 'nyc',
+#     'age': 28,
+#     'remote': True,
+#     'promotions': ['intern', 'dev'],
+#     'place_of_birth': ('country', 'El Salvador')
 
-# for id, info in D.items():
-#     print("\nEmployee ID:", id)
-#     for key in info:
-#         print(key + ' ==>', info[key])
