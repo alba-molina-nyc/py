@@ -28,3 +28,34 @@ def pig_latin():
                     print(consonant_word)
                     return consonant_word
 pig_latin()
+
+def pig_latin_sentence():
+    sentence = input('please enter a word to translate from english => piglatin: ')
+    way = 'way'
+    ay = 'ay'
+    
+    
+
+    while sentence != None:
+        splitting = sentence.split()                                # use built in split method to split the words in a sentence
+        print(splitting)
+
+        for s in splitting:
+            if s[0] in 'aeiou':
+                s = s + way
+                print(s)
+            else: 
+                if s[0] not in 'aeiou':
+                    s = s[1:] + s[:1] + ay 
+                    print(s)
+        return s
+                    
+       
+
+        
+        
+ 
+
+
+
+pig_latin_sentence()
