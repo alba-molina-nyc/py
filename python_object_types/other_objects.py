@@ -1,0 +1,5 @@
+"""
+booleans
+files
+none
+numbers"""

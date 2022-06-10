@@ -1,7 +1,23 @@
-"""Python Strings
+vowels = 'aeiou'
+print('a' in vowels)                                                       #operator for searching in sequence
 
-1. they are immutable
-2. they contain unicode characters, encoded in UTF-9
-3. they are a Python sequence- we can iterate over them (character by character), retrieve their elements via numeric indexes and search in them with the in operator 
+# list_name[starting_point:ending_point]                                   # slice of vowels from i to j o:3 in longets word 012
+# list_name[starting_point:ending_point:how_many_steps]                    # slice of s from i to j with step k
 
-"""
+longest_word = 'Pneumonoultramicroscopicsilicovolcanoconiosis'
+
+s = longest_word[0:3:1]
+print(s)
+
+y = longest_word[6:]
+print(y)
+
+z = longest_word[:6]
+print(z)
+
+x = longest_word.count('volcano')                                          # counts how many times volcanos happened
+print(x)
+
+o = longest_word.count('o')                                                # counts how many times o happened
+print(o)
+                                                                          
