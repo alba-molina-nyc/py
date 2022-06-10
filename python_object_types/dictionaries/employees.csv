@@ -1,0 +1,15 @@
+name, alba
+role, dev
+age, 28
+remote, True
+
+
+name, vicky
+role, senior manager
+age, 33
+remote, True
+
+name, daniel
+role, instructor
+age, 21
+remote, False
