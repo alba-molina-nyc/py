@@ -10,23 +10,18 @@ def pig_latin():
     word = input('please enter a word to translate from english => piglatin: ')
     way = 'way'
     ay = 'ay'
-    vowel_word = None
-    consonant_word = None
 
     while word != None: 
         for i in word:
             if word[0] in 'aeiou':
                 word = word + way
-                vowel_word = word
-                print(vowel_word)
-                return vowel_word
+                print(word)
+                return word
             else:
                 if word[0] not in 'aeiou': 
-                    print(word[0])
                     word = word[1:] + word[:1] + ay 
-                    consonant_word = word
-                    print(consonant_word)
-                    return consonant_word
+                    print(word)
+                    return word
 pig_latin()
 
 def pig_latin_sentence():
@@ -48,14 +43,5 @@ def pig_latin_sentence():
                 if s[0] not in 'aeiou':
                     s = s[1:] + s[:1] + ay 
                     print(s)
-        return s
-                    
-       
-
-        
-        
- 
-
-
-
+        return s             
 pig_latin_sentence()
