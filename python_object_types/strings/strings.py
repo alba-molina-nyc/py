@@ -20,4 +20,7 @@ print(x)
 
 o = longest_word.count('o')                                                # counts how many times o happened
 print(o)
+
+
+"""the in operator works in strings, tuples, and lists """
                                                                           
